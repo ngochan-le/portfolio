@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Portfolio of Han Le, an IT student specializing in Cyber Security. Explore skills, projects, and contact information.">
+    <title>Han Le</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="main-header">
+        <nav class="navbar">
+            <div class="logo">Han Le</div>
+            <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#resume">Resume</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="hero" id="hero">
+        <div class="hero-content">
+            <h1>Welcome to My Portfolio</h1>
+            <p>I'm a passionate IT student specializing in Cyber Security. Explore my work and skills.</p>
+            <a href="#contact" class="btn btn-primary">Get in Touch</a>
+        </div>
+    </section>
+
+    <section class="about" id="about">
+        <h2>About Me</h2>
+        <div class="about-container">
+            <img src="profile.jpg" alt="Ngoc Han Le" class="profile-pic">
+            <div class="about-text">
+                <p>I am a Maryland-based undergraduate IT student at Georgia Southern University with a concentration on Cyber Security.</p>
+                <p>Participated in National Cyber League ('21 & '22). Certified in Red Hat System Administration and Secure Computer User by EC-Council.</p>
+                <p>I possess strong proficiency in Java, JavaScript, Python, CSS, and HTML, along with knowledge and hands-on experience with various computer security applications such as Hashcat, Nmap, Wireshark, and Dirbuster.</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="skills" id="skills">
+        <h2>Skills</h2>
+        <div class="skills-container">
+		    <div class="skill">Python</div>
+            <div class="skill">Java</div>
+            <div class="skill">JavaScript</div>
+            <div class="skill">HTML and CSS</div>
+            <div class="skill">Cyber Security Tools</div>
+        </div>
+    </section>
+
+    <section class="resume" id="resume">
+        <h2>Resume</h2>
+        <a href="file:///C:/Users/cooki/Downloads/Le_resume.pdf" class="btn btn-primary" download>Download My Resume</a>
+    </section>
+
+    <section class="contact" id="contact">
+    <h2>Contact Me</h2>
+    <p>If you have any questions or want to collaborate, feel free to reach out!</p>
+    <p>Email: <a href="mailto:ngochan.le7890@gmail.com">ngochan.le7890@gmail.com</a></p>
+    <p>LinkedIn: <a href="https://www.linkedin.com/in/jocelynhanl" target="_blank">www.linkedin.com/in/jocelynhanl</a></p>
+    <form action="your-backend-endpoint" method="POST">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required>
+        
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+        
+        <label for="message">Message:</label>
+        <textarea id="message" name="message" rows="4" required></textarea>
+        
+        <button type="submit">Send Message</button>
+    </form>
+    </section>
+
+
+    <footer class="main-footer">
+        <p>&copy; 2024 Han Le. All Rights Reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
